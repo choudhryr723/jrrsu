@@ -20,8 +20,36 @@ const HeaderComponet = () => {
     navigate('/shastri_siksha_shastri')
   }
 
+  const pgyt=()=>{
+    navigate('/pgyt')
+  }
+
+  const karmKand=()=>{
+    navigate('/karm_kand')
+  }
+
+  const research=()=>{
+    navigate('/research')
+  }
+
+  const vastu=()=>{
+    navigate('/vastu')
+  }
+
+  const jyotish=()=>{
+    navigate('/jyotish')
+  }
+
   const pgdca=()=>{
     navigate('/pgdca')
+  }
+
+  const importantDate=()=>{
+    navigate('/important_date')
+  }
+
+  const helpDesk=()=>{
+    navigate('/helpDesk')
   }
   return (
         <>
@@ -114,7 +142,9 @@ const HeaderComponet = () => {
                         >
                           <ul className="navbar-nav">
                             <li className="nav-item active">
-                              <a className="nav-link" href="index.html">
+                              <a className="nav-link"
+                              onClick={()=>navigate('/')}
+                              >
                                 Home
                               </a>
                             </li>
@@ -155,34 +185,53 @@ const HeaderComponet = () => {
                                 >
                                   POST GRADUATE DIPLOMA IN COMPUTER APPLICATION (PGDCA)
                                 </a>
-                                <a className="dropdown-item" href="pgdyt.html">
+                                <a className="dropdown-item" 
+                                // href="pgdyt.html"
+                                onClick={()=>pgyt()}
+                                >
                                   POST GRADUATE DIPLOMA IN YOGA THERAPHY (PGDYT)
                                 </a>
                                 <a
                                   className="dropdown-item"
-                                  href="diploma-in-karmkand-and-paurohitya.html"
+                                  // href="diploma-in-karmkand-and-paurohitya.html"
+                                  onClick={()=>karmKand()}
                                 >
                                   DIPLOMA IN KARM KAND AND PAUROHITYA (कर्मकाण्ड-पौरोहित्य
                                   डिप्लोमा)
                                 </a>
-                                <a className="dropdown-item" href="diploma-in-jyotish.html">
+                                <a className="dropdown-item"
+                                //  href="diploma-in-jyotish.html"
+                                onClick={()=>jyotish()}
+                                 >
                                   DIPLOMA IN JYOTISH (ज्योतिष डिप्लोमा)
                                 </a>
-                                <a className="dropdown-item" href="diploma-in-vastu.html">
+                                <a className="dropdown-item"
+                                //  href="diploma-in-vastu.html"
+                                onClick={()=>vastu()}
+                                 >
                                   DIPLOMA IN VASTU (वास्तु डिप्लोमा)
                                 </a>
-                                <a className="dropdown-item" href="research.html">
+                                <a className="dropdown-item"
+                                //  href="research.html"
+                                onClick={()=>research()}
+                                 >
                                   RESEARCH (शोध संस्थान)
                                 </a>
                               </div>
                             </li>
                             <li className="nav-item">
-                              <a className="nav-link" href="important-dates.html">
+                              <a className="nav-link"
+                              onClick={()=>importantDate()} 
+                              // href="important-dates.html"
+                              >
                                 Important Dates
                               </a>
                             </li>
                             <li className="nav-item">
-                              <a className="nav-link" href="downloads.html">
+                              <a className="nav-link" 
+                              // href="downloads.html"
+                              onClick={()=>helpDesk()}
+                              >
                                 Downloads
                               </a>
                             </li>
@@ -192,7 +241,7 @@ const HeaderComponet = () => {
                               </a>
                             </li>
                             <li className="nav-item">
-                              <a className="nav-link" href="helpdesk.html">
+                              <a className="nav-link" onClick={()=>helpDesk()}>
                                 Helpdesk
                               </a>
                             </li>
