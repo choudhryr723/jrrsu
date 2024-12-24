@@ -230,13 +230,13 @@ const HeaderComponet = () => {
                             <li className="nav-item">
                               <a className="nav-link" 
                               // href="downloads.html"
-                              onClick={()=>helpDesk()}
+                              onClick={()=>navigate('/download')}
                               >
                                 Downloads
                               </a>
                             </li>
                             <li className="nav-item">
-                              <a className="nav-link" href="fees-info.html">
+                              <a className="nav-link"onClick={()=>navigate('/feeInfo')}>
                                 Fees Info
                               </a>
                             </li>

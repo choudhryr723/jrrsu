@@ -13,6 +13,8 @@ import Pgdyt from '../components/Pgdyt/Pgdyt';
 import JyotishComponent from '../components/Jyotish/JyotishComponent';
 import ImportantDate from '../components/ImportantDate/ImportantDate';
 import HelpDesk from '../components/HelpDesk/HelpDesk';
+import Downloads from '../components/Download/Download';
+import FeeInfo from '../components/FeeInfo/FeeInfo';
 
 const routers = createBrowserRouter(
   createRoutesFromElements(
@@ -31,7 +33,9 @@ const routers = createBrowserRouter(
       <Route path='/jyotish' element={<JyotishComponent/>}/>
       <Route path='/important_date' element={<ImportantDate/>}/>
       <Route path='/helpDesk' element={<HelpDesk/>}/>
-
+      <Route path='/download' element={<Downloads/>}/>
+      <Route path='/feeInfo' element={<FeeInfo/>}/>
+      
       </Route>
   )
 );
