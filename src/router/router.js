@@ -3,6 +3,7 @@ import Layout from '../components/Layout/Layout';
 import Home from '../components/Home'
 import ShastriConent from '../components/Shastri/Shastri';
 import Acharya from '../components/Acharya/Acharya';
+import SikshaShastriBed from '../components/SikshaShastriBed/SikshaShastriBed';
 
 const routers = createBrowserRouter(
   createRoutesFromElements(
@@ -10,6 +11,7 @@ const routers = createBrowserRouter(
       <Route path='' element={<Home />} />
       <Route path='shastri' element={<ShastriConent />} />
       <Route path='acharya' element={<Acharya/>}/>
+      <Route path='siksha_shastri_bed' element={<SikshaShastriBed/>}/>
       </Route>
   )
 );

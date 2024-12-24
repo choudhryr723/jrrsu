@@ -13,6 +13,9 @@ const HeaderComponet = () => {
     navigate('/acharya');
   }
 
+  const sikshaShastriBed=()=>{
+    navigate('/siksha_shastri_bed')
+  }
   return (
         <>
         <header>
@@ -128,7 +131,7 @@ const HeaderComponet = () => {
                                 <a className="dropdown-item"  onClick={()=>acharyaNavigate()}>
                                   ACHARYA (M.A.) (आचार्य)
                                 </a>
-                                <a className="dropdown-item" onClick={()=>acharyaNavigate()} >
+                                <a className="dropdown-item" onClick={()=>sikshaShastriBed()} >
                                   SIKSHA SHASTRI (B.ED.) (शिक्षाशास्त्री)
                                 </a>
                                 <a
