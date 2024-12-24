@@ -16,6 +16,13 @@ const HeaderComponet = () => {
   const sikshaShastriBed=()=>{
     navigate('/siksha_shastri_bed')
   }
+  const shastriSikshaShastri=()=>{
+    navigate('/shastri_siksha_shastri')
+  }
+
+  const pgdca=()=>{
+    navigate('/pgdca')
+  }
   return (
         <>
         <header>
@@ -136,12 +143,16 @@ const HeaderComponet = () => {
                                 </a>
                                 <a
                                   className="dropdown-item"
-                                  href="shastri-siksha-shastri.html"
+                                  onClick={()=>shastriSikshaShastri()}
+                                  // href="shastri-siksha-shastri.html"
                                 >
                                   SHASTRI SHIKSHA SHASTRI (4 YRS INT. COURSE)
                                   (शास्त्री-शिक्षाशास्त्री)
                                 </a>
-                                <a className="dropdown-item" href="pgdca.html">
+                                <a className="dropdown-item" 
+                                // href="pgdca.html"
+                                onClick={()=>pgdca()}
+                                >
                                   POST GRADUATE DIPLOMA IN COMPUTER APPLICATION (PGDCA)
                                 </a>
                                 <a className="dropdown-item" href="pgdyt.html">

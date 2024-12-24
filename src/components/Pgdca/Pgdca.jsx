@@ -1,52 +1,53 @@
 import React from 'react'
 
-export default function SikshaShastriBed() {
+export default function Pgdca() {
   return (
-   <>
-   <div class="content-wrap course-fee-circular">
-	  <div class="container-fluid">
-	  <div class="row">
-	  <div class="col-lg-12">
-		  <h2>SIKSHA SHASTRI (B.ED.) (शिक्षाशास्त्री)</h2>
+    <div>
+<div className="content-wrap course-fee-circular">
+	  <div className="container-fluid">
+	  <div className="row">
+	  <div className="col-lg-12 text-white">
+		  <h2>POST GRADUATE DIPLOMA IN COMPUTER APPLICATION (PGDCA)</h2>
 		  </div>	  
 	
-	<div class="col-lg-12">
-		<div class="affi-fees-heading">सत्र 2025-26 का सम्बद्धता शुल्क निम्नानुसार रहेगा:-</div>
-		<div class="table-responsive">
-		<table class="table table-bordered table-striped" cellspacing="0" rules="all" border="1" id="#"
-    //  style="width:100%;border-collapse:collapse;"
-     >
+	<div className="col-lg-12">
+		<div className="affi-fees-heading">सत्र 2025-26 का सम्बद्धता शुल्क निम्नानुसार रहेगा:-</div>
+		<div className="table-responsive">
+		<table className="table table-bordered table-striped width:100% border-collapse:collapse" cellspacing="0" rules="all" border="1" id="#" 
+        // style="width:100%;border-collapse:collapse;"
+        >
   <tbody>
 	  <tr>
-			<th scope="col">शिक्षाषास्त्री</th><th scope="col">GST 18%</th><th scope="col">कुल</th><th scope="col">In-take Seats</th><th scope="col">Endorment Fund</th>
+			<th scope="col">PGDCA</th><th scope="col">GST 18%</th><th scope="col">कुल</th><th scope="col">In-take Seats</th><th scope="col">Endorment Fund</th>
 		</tr>
     <tr>
-      <td>1,46,155/-</td>
-      <td>26,308/-</td>
-      <td>1,72,463/-</td>
-      <td>50 (1 unit)</td>
-      <td>1,50,000/-</td>
+      <td>66,000/-</td>
+      <td>11,880/-</td>
+      <td>77,880/-</td>
+      <td>40 (1 unit)</td>
+      <td>1,25,000/-</td>
     </tr>
     
   </tbody>
 </table></div>
 
-	<div class="syllabus">
-		<h3>शिक्षाशास्त्री पाठ्यक्रम:-</h3>
-		<p>अ. NCTE की मान्यता एवं राज्य सरकार की मान्यता एवं NOC आवष्यक है।<br />
-		ब. NCTE/राज्य सरकार/विष्वविद्यालय के समस्त मापदण्डों के अनुसार हों।</p>
+	<div className="syllabus">
+		<h3>PGDCA पाठ्यक्रम:-</h3>
+		
 		</div>	
 		
-		{/* <!--<div class="syllabus-terms"> */}
-		{/* <h3>शर्तें:-</h3>
+		<div className="syllabus-terms">
+		<h3>शर्तें:-</h3>
 		<ul>
-		<li>राज्य सरकार की NOC होनी आवष्यक है।</li>
-		<li>नियमानुसार भवन, प्रयोगषाला एवं पुस्तकालय होना चाहिए, पुस्तकालय में 1000 पुस्तकें होना आवष्यक है।</li>
+		<li>संबंधित पाठ्यक्रम आवेदित करते समय महाविद्यालय स्तर का पाठ्यक्रम संचालित होना चाहिए।</li>
+		<li>महाविद्यालय भवन स्वयं की भूमि पर अवस्थित हो एवं भवन का अग्नि सुरक्षा प्रमाण पत्र नियमानुसार होना चाहिए।</li>
+		<li>40 कम्प्यूटर की प्रयोगषाला मय इन्टरनेट/वाई-फाई व्यवस्था के साथ होना आवष्यक है।</li>
 		<li>नियमानुसार षैक्षणिक एवं अषैक्षणिक स्टाॅफ होना आवष्यक है।</li>
+		<li>नियमानुसार भवन, प्रयोगषाला एवं पुस्तकालय में 1000 पुस्तकें होनी चाहिए।</li>
 		</ul>
-		</div>--> */}
+		</div>
 		
-		<div class="syllabus-terms">
+		<div className="syllabus-terms">
 		<h3>अन्य शर्तें:-</h3>
 		<ol>
 			<li>सत्र 2025-26 की सम्बद्धता के संबंध में समस्त दस्तावेज महाविद्यालयों द्वारा Soft Copy में Upload किये जावेंगे तथा कोई संलग्नक (Hard Copy) विष्वविद्यालय में जमा नहीं होगी। केवल आवेदन फार्म एवं शुल्क जमा की रसीद की हाॅर्ड काॅपी तथा संलग्नक Pen Drive में आवेदन की अन्तिम तिथि के 10 दिवस में विष्वविद्यालय में जमा करवाना अनिवार्य है।</li>
@@ -59,28 +60,30 @@ export default function SikshaShastriBed() {
 			</ol>	
 		</div>
 		
-		<div class="late-fee">
+		<div className="late-fee">
 		<strong>विलम्ब शुल्क निम्नानुसार रहेगाः-</strong>	
-		<table class="table table-bordered table-striped" cellspacing="0" rules="all" border="1" id="#" 
-    // style="width:100%;border-collapse:collapse;"
-    >
+		<table className="table table-bordered table-striped" cellspacing="0" rules="all" border="1" id="#" 
+        // style="width:100%;border-collapse:collapse;"
+        >
   <tbody>
 	  <tr>
 			<th scope="col">क्र. सं.</th><th scope="col">पाठ्यक्रम</th><th scope="col">विलम्ब शुल्क</th><th scope="col">विशेष विवरण</th>
 		</tr>
     <tr>
       <td>1.</td>
-      <td>शिक्षाशास्त्री</td>
-      <td>विश्वविद्यालय परिनियमानुसार</td>
-      <td>31 मार्च तक सम्बद्धता शुल्क का दुगुना <br />31 मई तक सम्बद्धता शुल्क का तिगुना</td>
+      <td>PGDCA</td>
+      <td colspan="2">31 जनवरी 2025 तक रु. 5,000/- एवं 18% GST अतिरिक्त <br />
+28 फरवरी 2025 तक रु. 10,000/- एवं 18% GST अतिरिक्त <br />
+31 मार्च 2025 तक रु. 15,000/- एवं 18% GST अतिरिक्त</td>
+      
     </tr>
     
   </tbody>
 </table>
-			<div class="special"><strong>विशेष: जमा करवाये जाने वाले किसी भी प्रकार के शुल्क पर नियमानुसार 18% GST देय होगा।</strong></div>
+			<div className="special"><strong>विशेष: जमा करवाये जाने वाले किसी भी प्रकार के शुल्क पर नियमानुसार 18% GST देय होगा।</strong></div>
 		</div>
 		
-		<div class="notice-text">
+		<div className="notice-text">
 		समस्त सूचनाएं/circular/सम्बद्धता पत्र/नोटिस इत्यादि विष्वविद्यालय की वेबसाईट पर यथासमय उपलब्ध होंगे। इस संबंध में अलग से कोई पत्र व्यवहार नहीं किया जावेगा। विष्वविद्यालय की वेबसाईट का नियमित अवलोकन करने की जिम्मेदारी आवेदित संस्था/महाविद्यालय की होगी।
 		</div>
 		  
@@ -89,6 +92,7 @@ export default function SikshaShastriBed() {
 	  </div>  
 	  </div></div>
 	  
-   </>
+	          
+    </div>
   )
 }

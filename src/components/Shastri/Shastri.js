@@ -5,7 +5,7 @@ function ShastriConent() {
     <div className="content-wrap course-fee-circular">
     <div className="container-fluid">
       <div className="row">
-        <div className="col-lg-12">
+        <div className="col-lg-12 text-white">
           <h2>SHASTRI (B.A.) (शास्त्री)</h2>
         </div>
 
