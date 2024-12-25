@@ -1,0 +1,38 @@
+{
+    "globals": {
+        "define": "readonly"
+    },
+    "env": {
+        "shared-node-browser": true,
+        "commonjs": true
+    },
+    "plugins": [
+        "requirejs"
+    ],
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "requirejs/no-invalid-define": 2,
+        "requirejs/no-multiple-define": 2,
+        "requirejs/no-named-define": 2,
+        "requirejs/no-commonjs-wrapper": 2,
+        "requirejs/no-object-define": 1
+    }
+}
