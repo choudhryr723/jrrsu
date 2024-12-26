@@ -95,7 +95,8 @@ const HeaderComponet = () => {
                       aria-expanded="false"
                     >
                       College
-                      <div className="fas fa-home ml-2"></div> {/* Font Awesome Icon */}
+                      {/* <i class="fas fa-sort-down mb-2 m"></i> */}
+                      {/* <div className="fas fa-arrows ml-2"></div> Font Awesome Icon */}
                     </a>
                   </div>
 
