@@ -8,16 +8,16 @@ const HeaderComponet = () => {
       <header>
         <div className="toplinks">
           <div className="container-fluid">
-          <div className="row">
-	<ul>
-		<li><a target="_blank" href="http://www.jrrsanskrituniversity.ac.in/">Main Website</a></li>	
-		<li><a target="_blank" href="http://admission.jrrsu.in/">Admission Portal 2024-25</a></li>
-		<li><a target="_blank" href="https://result.jrrsu.in/">Result Portal</a></li>
-    <li><a target="_blank" href="https://psst2024.jrrsu.in/">PSST/PSSST/PSAT 2024</a></li>
-		<li><a target="_blank" href="https://research.jrrsu.in/"> Pre PhD Entrance Exam 2024</a></li>
-		</ul>	
-	</div>
-  </div>
+            <div className="row">
+              <ul>
+                <li><a target="_blank" href="http://www.jrrsanskrituniversity.ac.in/">Main Website</a></li>
+                <li><a target="_blank" href="http://admission.jrrsu.in/">Admission Portal 2024-25</a></li>
+                <li><a target="_blank" href="https://result.jrrsu.in/">Result Portal</a></li>
+                <li><a target="_blank" href="https://psst2024.jrrsu.in/">PSST/PSSST/PSAT 2024</a></li>
+                <li><a target="_blank" href="https://research.jrrsu.in/"> Pre PhD Entrance Exam 2024</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="container-fluid">
           <div className="row">
@@ -81,18 +81,24 @@ const HeaderComponet = () => {
                     Home
                   </a>
                 </li>
+
                 <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    College
-                  </a>
+                  <div className="col-md-6 d-flex align-items-center">
+                    <a
+                      className="nav-link d-flex align-items-center "
+                      href="#"
+                      title="How to Apply"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      College
+                      <div className="fas fa-home ml-2"></div> {/* Font Awesome Icon */}
+                    </a>
+                  </div>
+
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a
                       className="dropdown-item"
@@ -281,10 +287,10 @@ const HeaderComponet = () => {
             </div>
           </div>
         </div>
-  </div>
-  <p style={{ color: 'red', fontSize: '18px' }}>
+      </div>
+      <p style={{ color: 'red', fontSize: '18px' }}>
         {/* <strong> */}
-          नोट : छात्र अपनी केटेगरी भुकतान होने से पूर्व केटेगरी रेगुलर से नॉन कॉलेजिएट या नॉन कॉलेजिएट से रेगुलर फीस भुकतान होने से पहले स्टूडेंट पैनल से फॉर्म एडिट करके की जा सकती है
+        नोट : छात्र अपनी केटेगरी भुकतान होने से पूर्व केटेगरी रेगुलर से नॉन कॉलेजिएट या नॉन कॉलेजिएट से रेगुलर फीस भुकतान होने से पहले स्टूडेंट पैनल से फॉर्म एडिट करके की जा सकती है
         {/* </strong> */}
         <br />
         एक बार भुकतान होने के उपरांत हेल्प डेस्क पे व्हाट्सप्प मैसेज भेजे, (Difference Fees) डिफ्रेंस फीस भुकतान होने के बाद अपने आप अपडेट केटेगरी अपडेट हो जाएगी
