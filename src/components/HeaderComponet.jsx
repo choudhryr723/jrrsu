@@ -10,11 +10,11 @@ const HeaderComponet = () => {
           <div className="container-fluid">
             <div className="row">
               <ul>
-                <li><a target="_blank" href="http://www.jrrsanskrituniversity.ac.in/">Main Website</a></li>
-                <li><a target="_blank" href="http://admission.jrrsu.in/">Admission Portal 2024-25</a></li>
-                <li><a target="_blank" href="https://result.jrrsu.in/">Result Portal</a></li>
-                <li><a target="_blank" href="https://psst2024.jrrsu.in/">PSST/PSSST/PSAT 2024</a></li>
-                <li><a target="_blank" href="https://research.jrrsu.in/"> Pre PhD Entrance Exam 2024</a></li>
+                <li><a href="http://www.jrrsanskrituniversity.ac.in/">Main Website</a></li>
+                <li><a href="http://admission.jrrsu.in/">Admission Portal 2024-25</a></li>
+                <li><a href="https://result.jrrsu.in/">Result Portal</a></li>
+                <li><a href="https://psst2024.jrrsu.in/">PSST/PSSST/PSAT 2024</a></li>
+                <li><a href="https://research.jrrsu.in/"> Pre PhD Entrance Exam 2024</a></li>
               </ul>
             </div>
           </div>
@@ -85,7 +85,7 @@ const HeaderComponet = () => {
                 <li className="nav-item dropdown">
                   <div className="col-md-6 d-flex align-items-center">
                     <a
-                      className="nav-link d-flex align-items-center "
+                      className="nav-link d-flex align-items-center mr-2"
                       href="#"
                       title="How to Apply"
                       id="navbarDropdown"
@@ -95,11 +95,11 @@ const HeaderComponet = () => {
                       aria-expanded="false"
                     >
                       College
-                      {/* <i class="fas fa-sort-down mb-2 m"></i> */}
-                      {/* <div className="fas fa-arrows ml-2"></div> Font Awesome Icon */}
+                      <div className="fa-solid fa-sort-down mb-2"></div>
+                      {/* <div className="fas fa-home ml-2"></div> */}
+                      {/* Font Awesome Icon */}
                     </a>
                   </div>
-
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a
                       className="dropdown-item"
@@ -253,7 +253,7 @@ const HeaderComponet = () => {
                   <a
                     className="nav-link  active"
                     href="https://result.jrrsu.in/"
-                    target="_blank"
+                  // 
                   >
                     Result Portal <img src={gif} alt="" />
                   </a>
@@ -262,7 +262,7 @@ const HeaderComponet = () => {
                   <a
                     className="nav-link"
                     href="https://psst2024.jrrsu.in/"
-                    target="_blank"
+
                   >
                     PSST/PSSST/PSAT 2024 <img src={gif} alt="" />
                   </a>
