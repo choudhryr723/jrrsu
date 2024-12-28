@@ -83,24 +83,24 @@ const HeaderComponet = () => {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <div className="col-md-6 d-flex align-items-center">
-                    <a
-                      className="nav-link d-flex align-items-center mr-2"
-                      href="#"
-                      title="How to Apply"
-                      id="navbarDropdown"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      College
-                      <div className="fa-solid fa-sort-down mb-2"></div>
-                      {/* <div className="fas fa-home ml-2"></div> */}
-                      {/* Font Awesome Icon */}
-                    </a>
-                  </div>
-                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div className="col-md-6 d-flex align-items-center">
+  <a
+    className="nav-link d-flex align-items-center"
+    href="#"
+    title="How to Apply"
+    id="navbarDropdown"
+    role="button"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+    College
+    <div className="m-1"></div>
+    <div className="fa-solid fa-sort-down mb-2"></div>
+    {/* Font Awesome Icon */}
+  </a>
+</div>
+  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a
                       className="dropdown-item"
                       href="http://jrrsu.in/College/login.aspx"
@@ -121,8 +121,27 @@ const HeaderComponet = () => {
                     </a>
                   </div>
                 </li>
+                
                 <li className="nav-item dropdown">
-                  <a
+                <div className="col-md-6 d-flex align-items-center">
+  <a
+    className="nav-link d-flex align-items-center"
+    href="#"
+    title="How to Apply"
+    id="navbarDropdown"
+    role="button"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+                  Examiner
+      
+    <div className="m-1"></div>
+    <div className="fa-solid fa-sort-down ml-2 mb-2"></div>
+    {/* Font Awesome Icon */}
+  </a>
+</div>
+                  {/* <a
                     className="nav-link dropdown-toggle"
                     href="#"
                     title="How to Apply"
@@ -133,7 +152,7 @@ const HeaderComponet = () => {
                     aria-expanded="false"
                   >
                     Examiner
-                  </a>
+                  </a> */}
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a
                       className="dropdown-item"
@@ -150,7 +169,26 @@ const HeaderComponet = () => {
                   </div>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  
+                <div className="col-md-6 d-flex align-items-center">
+  <a
+    className="nav-link d-flex align-items-center"
+    href="#"
+    title="How to Apply"
+    id="navbarDropdown"
+    role="button"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+                  Student
+      
+    <div className="m-1"></div>
+    <div className="fa-solid fa-sort-down mb-2"></div>
+    {/* Font Awesome Icon */}
+  </a>
+</div>
+                  {/* <a
                     className="nav-link dropdown-toggle"
                     href="#"
                     title="How to Apply"
@@ -161,7 +199,7 @@ const HeaderComponet = () => {
                     aria-expanded="false"
                   >
                     Student
-                  </a>
+                  </a> */}
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a
                       className="dropdown-item"
@@ -187,7 +225,7 @@ const HeaderComponet = () => {
                   </div>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  {/* <a
                     className="nav-link dropdown-toggle"
                     href="#"
                     title="How to Apply"
@@ -198,7 +236,23 @@ const HeaderComponet = () => {
                     aria-expanded="false"
                   >
                     Affiliation
-                  </a>
+                  </a> */}
+                  <a
+    className="nav-link d-flex align-items-center"
+    href="#"
+    title="How to Apply"
+    id="navbarDropdown"
+    role="button"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+                    Affiliation
+      
+    <div className="m-1"></div>
+    <div className="fa-solid fa-sort-down mb-2"></div>
+    {/* Font Awesome Icon */}
+  </a>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a
                       className="dropdown-item"
@@ -215,7 +269,24 @@ const HeaderComponet = () => {
                   </div>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                <a
+    className="nav-link d-flex align-items-center"
+    href="#"
+    title="How to Apply"
+    id="navbarDropdown"
+    role="button"
+    data-toggle="dropdown"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+                                  Online Services
+      
+      
+    <div className="m-1"></div>
+    <div className="fa-solid fa-sort-down mb-2"></div>
+    {/* Font Awesome Icon */}
+  </a>    
+                  {/* <a
                     className="nav-link dropdown-toggle"
                     href="#"
                     title="How to Apply"
@@ -226,7 +297,7 @@ const HeaderComponet = () => {
                     aria-expanded="false"
                   >
                     Online Services
-                  </a>
+                  </a> */}
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a className="dropdown-item" href="http://online.jrrsu.in">
                       Duplicate Marksheet
@@ -251,14 +322,14 @@ const HeaderComponet = () => {
                 {/* <!--<li className="nav-item"><a className="nav-link" href="index.html">Admission Portal 2024-25 <img src="img/new.gif" alt=""/></a></li>--> */}
                 <li className="nav-item">
                   <a
-                    className="nav-link  active"
+                    className="nav-link "
                     href="https://result.jrrsu.in/"
                   // 
                   >
                     Result Portal <img src={gif} alt="" />
                   </a>
                 </li>
-                <li className="nav-item  active">
+                <li className="nav-item ">
                   <a
                     className="nav-link"
                     href="https://psst2024.jrrsu.in/"
