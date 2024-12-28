@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         
         
-        <div class="online-services">
+        <div class="imp-links">
         <h2>Online Services</h2>
         <ul>
           <li><a href="http://online.jrrsu.in/">Duplicate Marksheet</a></li>
@@ -157,7 +157,7 @@ export default function Home() {
   </div>		 
        
         </div>	  
-          </div>--> */}
+          </div>-->*/}
         
         </div>
         </div>	  

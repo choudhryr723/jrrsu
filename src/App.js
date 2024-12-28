@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // This will correctly import Boo
 
 
 
-
 function App() {
   return (
     <Suspense fallback={null}>

@@ -1,8 +1,5 @@
 import '../assets/custom-css/style.css'
 import '../assets/custom-css/font-awesome.css'
-// import '../assets/vendor/bootstrap/css/bootstrap.css'
-// import '../assets/vendor/bootstrap/js/bootstrap.js'
-// import '../assets/vendor/jquery/jquery.js'
 import '../assets/custom-css/responsive.css'
 import '../assets/custom-css/font-awesome.min.css'
-// import '../assets/vendor/bootstrap/css/bootstrap.css'
+
