@@ -96,11 +96,11 @@ export default function Home() {
         <div class="imp-links">
         <h2>Online Services</h2>
         <ul>
-          <li><a href="http://online.jrrsu.in/">Duplicate Marksheet</a></li>
-          <li><a href="http://online.jrrsu.in/">Provisional Degree Certificate</a></li>
-          <li><a href="http://online.jrrsu.in/">Correction in Marksheet</a></li>
-          <li><a href="http://online.jrrsu.in/">Migration</a></li>
-          <li><a href="http://online.jrrsu.in/">Degree Correction</a></li>
+          <li><a href="#">Duplicate Marksheet</a></li>
+          <li><a href="#">Provisional Degree Certificate</a></li>
+          <li><a href="#">Correction in Marksheet</a></li>
+          <li><a href="#">Migration</a></li>
+          <li><a href="#">Degree Correction</a></li>
                           
         </ul>
           </div>

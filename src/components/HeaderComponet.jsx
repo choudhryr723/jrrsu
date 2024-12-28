@@ -132,11 +132,11 @@ const HeaderComponet = () => {
 			  <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" title="How to Apply" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Services</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-         		<a class="dropdown-item" href="http://online.jrrsu.in">Duplicate Marksheet</a>
-         		<a class="dropdown-item" href="http://online.jrrsu.in">Provisional Degree Certificate</a>
-         		<a class="dropdown-item" href="http://online.jrrsu.in">Correction in Marksheet</a>
-         		<a class="dropdown-item" href="http://online.jrrsu.in">Migration</a>
-         		<a class="dropdown-item" href="http://online.jrrsu.in">Degree Correction</a>
+         		<a class="dropdown-item" href="#">Duplicate Marksheet</a>
+         		<a class="dropdown-item" href="#">Provisional Degree Certificate</a>
+         		<a class="dropdown-item" href="#">Correction in Marksheet</a>
+         		<a class="dropdown-item" href="#">Migration</a>
+         		<a class="dropdown-item" href="#">Degree Correction</a>
         		</div>
             </li>
           </ul>
