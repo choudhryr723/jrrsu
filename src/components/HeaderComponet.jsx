@@ -1,6 +1,6 @@
 import "../style/style";
 import logo from "../assets/img/logo.png";
-import gif from '../assets/img/new.gif'
+import gif from "../assets/img/new.gif";
 
 const HeaderComponet = () => {
   return (
@@ -10,11 +10,28 @@ const HeaderComponet = () => {
           <div className="container-fluid">
             <div className="row">
               <ul>
-                <li><a href="http://www.jrrsanskrituniversity.ac.in/">Main Website</a></li>
-                <li><a href="http://admission.jrrsu.in/">Admission Portal 2024-25</a></li>
-                <li><a href="https://result.jrrsu.in/">Result Portal</a></li>
-                <li><a href="https://psst2024.jrrsu.in/">PSST/PSSST/PSAT 2024</a></li>
-                <li><a href="https://research.jrrsu.in/"> Pre PhD Entrance Exam 2024</a></li>
+                <li>
+                  <a href="http://www.jrrsanskrituniversity.ac.in/">
+                    Main Website
+                  </a>
+                </li>
+                <li>
+                  <a href="http://admission.jrrsu.in/">
+                    Admission Portal 2024-25
+                  </a>
+                </li>
+                <li>
+                  <a href="https://result.jrrsu.in/">Result Portal</a>
+                </li>
+                <li>
+                  <a href="https://psst2024.jrrsu.in/">PSST/PSSST/PSAT 2024</a>
+                </li>
+                <li>
+                  <a href="https://research.jrrsu.in/">
+                    {" "}
+                    Pre PhD Entrance Exam 2024
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -71,278 +88,71 @@ const HeaderComponet = () => {
         </div>
       </header>
 
-      <div className="menu-wrapper">
-        <nav className="navbar navbar-expand-lg navbar-dark static-top">
-          <div className="container-fluid">
-            <div className="collapse navbar-collapse mainnav" id="navbarResponsive">
-              <ul className="navbar-nav">
-                <li className="nav-item active">
-                  <a className="nav-link" href="">
-                    Home
-                  </a>
-                </li>
-
-                <li className="nav-item dropdown">
-                <div className="col-md-6 d-flex align-items-center">
-  <a
-    className="nav-link d-flex align-items-center"
-    href="#"
-    title="How to Apply"
-    id="navbarDropdown"
-    role="button"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-    College
-    <div className="m-1"></div>
-    <div className="fa-solid fa-sort-down mb-2"></div>
-    {/* Font Awesome Icon */}
-  </a>
-</div>
-  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a
-                      className="dropdown-item"
-                      href="http://jrrsu.in/College/login.aspx"
-                    >
-                      College Login
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="http://jrrsu.in/CollegeReg.aspx"
-                    >
-                      College Registration
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://jrrsu.in/ExamCenterLogin.aspx"
-                    >
-                      Exam Center Login
-                    </a>
-                  </div>
-                </li>
-                
-                <li className="nav-item dropdown">
-                <div className="col-md-6 d-flex align-items-center">
-  <a
-    className="nav-link d-flex align-items-center"
-    href="#"
-    title="How to Apply"
-    id="navbarDropdown"
-    role="button"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-                  Examiner
-      
-    <div className="m-1"></div>
-    <div className="fa-solid fa-sort-down ml-2 mb-2"></div>
-    {/* Font Awesome Icon */}
-  </a>
-</div>
-                  {/* <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    title="How to Apply"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Examiner
-                  </a> */}
-                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a
-                      className="dropdown-item"
-                      href="http://jrrsu.in/Jrrsuexaminersnew/ApplyAsExaminer.aspx"
-                    >
-                      Examiner Registration
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="http://jrrsu.in/Jrrsuexaminersnew/Login.aspx"
-                    >
-                      Examiner Login
-                    </a>
-                  </div>
-                </li>
-                <li className="nav-item dropdown">
-                  
-                <div className="col-md-6 d-flex align-items-center">
-  <a
-    className="nav-link d-flex align-items-center"
-    href="#"
-    title="How to Apply"
-    id="navbarDropdown"
-    role="button"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-                  Student
-      
-    <div className="m-1"></div>
-    <div className="fa-solid fa-sort-down mb-2"></div>
-    {/* Font Awesome Icon */}
-  </a>
-</div>
-                  {/* <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    title="How to Apply"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Student
-                  </a> */}
-                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a
-                      className="dropdown-item"
-                      href="http://jrrsu.in/studentnew/login.aspx"
-                    >
-                      Student Login
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="http://jrrsu.in/studentnew/enrollmentregistration.aspx"
-                    >
-                      Student's Enrollment
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="http://jrrsu.in/studentnew/enrollmentregistration.aspx"
-                    >
-                      Fill Exam Form
-                    </a>
-                    <a className="dropdown-item" href="http://admission.jrrsu.in/">
-                      Admission
-                    </a>
-                  </div>
-                </li>
-                <li className="nav-item dropdown">
-                  {/* <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    title="How to Apply"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Affiliation
-                  </a> */}
-                  <a
-    className="nav-link d-flex align-items-center"
-    href="#"
-    title="How to Apply"
-    id="navbarDropdown"
-    role="button"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-                    Affiliation
-      
-    <div className="m-1"></div>
-    <div className="fa-solid fa-sort-down mb-2"></div>
-    {/* Font Awesome Icon */}
-  </a>
-                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a
-                      className="dropdown-item"
-                      href="https://affiliation.jrrsu.in"
-                    >
-                      Affiliation Login
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://jrrsu.in/CollegeReg.aspx"
-                    >
-                      New College Registration
-                    </a>
-                  </div>
-                </li>
-                <li className="nav-item dropdown">
-                <a
-    className="nav-link d-flex align-items-center"
-    href="#"
-    title="How to Apply"
-    id="navbarDropdown"
-    role="button"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-                                  Online Services
-      
-      
-    <div className="m-1"></div>
-    <div className="fa-solid fa-sort-down mb-2"></div>
-    {/* Font Awesome Icon */}
-  </a>    
-                  {/* <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    title="How to Apply"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Online Services
-                  </a> */}
-                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="http://online.jrrsu.in">
-                      Duplicate Marksheet
-                    </a>
-                    <a className="dropdown-item" href="http://online.jrrsu.in">
-                      Provisional Degree Certificate
-                    </a>
-                    <a className="dropdown-item" href="http://online.jrrsu.in">
-                      Correction in Marksheet
-                    </a>
-                    <a className="dropdown-item" href="http://online.jrrsu.in">
-                      Migration
-                    </a>
-                    <a className="dropdown-item" href="http://online.jrrsu.in">
-                      Degree Correction
-                    </a>
-                  </div>
-                </li>
-              </ul>
-
-              <ul className="navbar-nav navbar-right">
-                {/* <!--<li className="nav-item"><a className="nav-link" href="index.html">Admission Portal 2024-25 <img src="img/new.gif" alt=""/></a></li>--> */}
-                <li className="nav-item">
-                  <a
-                    className="nav-link "
-                    href="https://result.jrrsu.in/"
-                  // 
-                  >
-                    Result Portal <img src={gif} alt="" />
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a
-                    className="nav-link"
-                    href="https://psst2024.jrrsu.in/"
-
-                  >
-                    PSST/PSSST/PSAT 2024 <img src={gif} alt="" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
+      <div class="menu-wrapper">
+	<nav class="navbar navbar-expand-lg navbar-dark static-top">
+      <div class="container-fluid">
+		<div class="row">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button><div class="collapse navbar-collapse mainnav" id="navbarResponsive">
+          <ul class="navbar-nav">
+			  <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+			  {/* <!--<li class="nav-item"><a class="nav-link" href="#">Help Desk</a></li>--> */}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">College</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         		<a class="dropdown-item" href="http://jrrsu.in/College/login.aspx">College Login</a>
+         		       		<a class="dropdown-item" href="http://jrrsu.in/CollegeReg.aspx">College Registration</a> 	
+					<a class="dropdown-item" href="https://jrrsu.in/ExamCenterLogin.aspx">Exam Center Login</a>
+        		</div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" title="How to Apply" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Examiner</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         		<a class="dropdown-item" href="http://jrrsu.in/Jrrsuexaminersnew/ApplyAsExaminer.aspx">Examiner Registration</a>
+         		<a class="dropdown-item" href="http://jrrsu.in/Jrrsuexaminersnew/Login.aspx">Examiner Login</a>
+        		</div>
+            </li>
+			  <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" title="How to Apply" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         		<a class="dropdown-item" href="http://jrrsu.in/studentnew/login.aspx">Student Login</a>
+         		<a class="dropdown-item" href="http://jrrsu.in/studentnew/enrollmentregistration.aspx">Student's Enrollment</a>
+         		<a class="dropdown-item" href="http://jrrsu.in/studentnew/enrollmentregistration.aspx">Fill Exam Form</a>
+         		<a class="dropdown-item" href="http://admission.jrrsu.in/">Admission</a>
+        		</div>
+            </li>
+			  <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" title="How to Apply" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Affiliation</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         		<a class="dropdown-item" href="https://affiliation.jrrsu.in">Affiliation Login</a>
+         		<a class="dropdown-item" href="https://jrrsu.in/CollegeReg.aspx">New College Registration</a>
+        		</div>
+            </li>
+			  <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" title="How to Apply" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Services</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         		<a class="dropdown-item" href="http://online.jrrsu.in">Duplicate Marksheet</a>
+         		<a class="dropdown-item" href="http://online.jrrsu.in">Provisional Degree Certificate</a>
+         		<a class="dropdown-item" href="http://online.jrrsu.in">Correction in Marksheet</a>
+         		<a class="dropdown-item" href="http://online.jrrsu.in">Migration</a>
+         		<a class="dropdown-item" href="http://online.jrrsu.in">Degree Correction</a>
+        		</div>
+            </li>
+          </ul>
+			
+			<ul class="navbar-nav navbar-right">
+			  {/* <!--<li class="nav-item"><a class="nav-link" href="index.html">Admission Portal 2024-25 <img src="img/new.gif" alt=""/></a></li>--> */}
+			  <li class="nav-item"><a class="nav-link" href="https://result.jrrsu.in/" target="_blank">Result Portal <img src={gif} alt=""/></a></li>
+			  <li class="nav-item"><a class="nav-link" href="https://psst2024.jrrsu.in/" target="_blank">PSST/PSSST/PSAT 2024 <img src={gif} alt=""/></a></li>
+            
+          </ul>
+			
+        </div>
+			  
+      </div></div>
+    </nav>
+		  </div>
       <div className="marquee">
         <div className="container-fluid">
           <div className="row">
@@ -350,9 +160,9 @@ const HeaderComponet = () => {
               <p>
                 यदि आपका भुगतान विफल हो गया है या बैंक से राशि कट गई है लेकिन
                 फॉर्म पर लेन-देन आईडी प्रिंट नहीं हुई है, तो कृपया 4 घंटे बाद
-                फिर से लॉगिन करें और लेन-देन के मिलान के लिए 24 कार्य घंटों
-                तक प्रतीक्षा करें , In case of helpdesk number-7073704054 is
-                busy then please drop a whatsapp message with your name, college
+                फिर से लॉगिन करें और लेन-देन के मिलान के लिए 24 कार्य घंटों तक
+                प्रतीक्षा करें , In case of helpdesk number-7073704054 is busy
+                then please drop a whatsapp message with your name, college
                 name, email Address and Issue. Or write to
                 helpdeskexam.jrrsu@gmail.com , We will reply you shortly.
               </p>
@@ -361,11 +171,15 @@ const HeaderComponet = () => {
         </div>
       </div>
       <div className="text-center">
-      <p style={{ color: 'red', fontSize: '18px' }}>
-        नोट : छात्र अपनी केटेगरी भुकतान होने से पूर्व केटेगरी रेगुलर से नॉन कॉलेजिएट या नॉन कॉलेजिएट से रेगुलर फीस भुकतान होने से पहले स्टूडेंट पैनल से फॉर्म एडिट करके की जा सकती है
-        <br />
-        एक बार भुकतान होने के उपरांत हेल्प डेस्क पे व्हाट्सप्प मैसेज भेजे, (Difference Fees) डिफ्रेंस फीस भुकतान होने के बाद अपने आप अपडेट केटेगरी अपडेट हो जाएगी
-      </p>
+        <p style={{ color: "red", fontSize: "18px" }}>
+          नोट : छात्र अपनी केटेगरी भुकतान होने से पूर्व केटेगरी रेगुलर से नॉन
+          कॉलेजिएट या नॉन कॉलेजिएट से रेगुलर फीस भुकतान होने से पहले स्टूडेंट
+          पैनल से फॉर्म एडिट करके की जा सकती है
+          <br />
+          एक बार भुकतान होने के उपरांत हेल्प डेस्क पे व्हाट्सप्प मैसेज भेजे,
+          (Difference Fees) डिफ्रेंस फीस भुकतान होने के बाद अपने आप अपडेट
+          केटेगरी अपडेट हो जाएगी
+        </p>
       </div>
     </>
   );

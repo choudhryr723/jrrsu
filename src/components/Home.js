@@ -109,62 +109,13 @@ export default function Home() {
       <div class="col-lg-6">		  
         <div class="imp-notify">			  
         <h2>Latest Form</h2>
-          <iframe src="https://jrrsu.in/studentnew/ExamFormPrei.aspx" frameborder="0"></iframe>
-      {/* <!--<div class="notify-tabs">
-     <div class="col-lg-12">
-        <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      <a class="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Student</a>
-    <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">University</a>
-      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Institute</a>
-    </div>
-  </nav>
-  <div class="tab-content" id="nav-tabContent">
-    
-  <div class="tab-pane" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-    <div class="row">
-      <ul>
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-      <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>	
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-        </ul>	
-      </div>
-    </div>
-    
-    <div class="tab-pane active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-    <div class="row">
-      <ul>
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-      <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>	
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-        </ul>	
-      </div>
-    
-    </div>
-    
-    <div class="tab-pane" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-    <div class="row">
-      <ul>
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-      <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>	
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-        <li>Manage Assignment, Homework, Classwork, Lesson Planning, Syllabus, Notes and Circular.</li>
-        </ul>	
-      </div>
-    </div>
-  </div>		 
-       
-        </div>	  
-          </div>-->*/}
-        
+          <iframe src="https://jrrsu.in/studentnew/ExamFormPrei.aspx" frameborder="0" id='0'></iframe>  
         </div>
         </div>	  
       <div class="col-lg-3">
         <div class="latest-news">
         <h2>Circular/Notifications/News</h2>
-        <iframe src="https://jrrsu.in/studentnew/Newsdisplay.aspx" frameborder="0"></iframe>	  
+        <iframe src="https://jrrsu.in/studentnew/Newsdisplay.aspx" frameborder="0" id='2'></iframe>	  
         </div>
         </div>	  
         
