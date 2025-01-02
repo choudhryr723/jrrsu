@@ -42,29 +42,20 @@ const HeaderComponet = () => {
               <div className="logo">
                 <a
                   className="navbar-brand"
-                  href="index.html"
+                  href="#"
                   title="जगद्गुरु रामानन्दाचार्य राजस्थान संस्कृत विश्वविद्यालय"
                 >
                   <img src={logo} alt="JRRSU" className="img-fluid" />{" "}
-                  <span className="logo-eng">
-                    Jagadguru Ramanandacharya <br />
-                    Rajasthan Sanskrit University
-                  </span>
-                  <span className="logo-hindi">
-                    जगद्गुरु रामानन्दाचार्य <br />
-                    राजस्थान संस्कृत विश्वविद्यालय
-                  </span>
-                  <span className="logo-sans">
-                    जगद्गुरुरमानन्दाचार्यराजस्थानसंस्कृतविश्वविद्यालयः
-                    राजस्थानम्
-                  </span>
+                  <span class="logo-eng">Apaar ERP <br/>Education Resource &amp; Planning</span>
+                  <span class="logo-hindi">Apaar ERP : The Next Generation Scalable AWS Cloud-Based  <br/>University Resource and Planning Management</span>
+                  <span class="logo-sans">APAAR ERP :  (Advanced Portal for Academic Access and Reform) </span>
                 </a>
               </div>
             </div>
 
             <div className="col-lg-4">
               <div className="affi-heading">
-                <h2>Affiliation Portal 2025-26</h2>
+                {/* // <h2>Affiliation Portal 2025-26</h2> */}
               </div>
             </div>
 
@@ -153,7 +144,7 @@ const HeaderComponet = () => {
       </div></div>
     </nav>
 		  </div>
-      <div className="marquee">
+      {/* <div className="marquee">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12">
@@ -180,7 +171,7 @@ const HeaderComponet = () => {
           (Difference Fees) डिफ्रेंस फीस भुकतान होने के बाद अपने आप अपडेट
           केटेगरी अपडेट हो जाएगी
         </p>
-      </div>
+      </div> */}
     </>
   );
 };

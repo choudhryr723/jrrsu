@@ -109,13 +109,13 @@ export default function Home() {
       <div class="col-lg-6">		  
         <div class="imp-notify">			  
         <h2>Latest Form</h2>
-          <iframe src="https://jrrsu.in/studentnew/ExamFormPrei.aspx" frameborder="0" id='0'></iframe>  
+          <iframe src="https://apaarerp.digitalries.com/studentnew/ExamFormPrei" frameborder="0" id='0'></iframe>  
         </div>
         </div>	  
       <div class="col-lg-3">
         <div class="latest-news">
         <h2>Circular/Notifications/News</h2>
-        <iframe src="https://jrrsu.in/studentnew/Newsdisplay.aspx" frameborder="0" id='2'></iframe>	  
+        <iframe src="https://apaarerp.digitalries.com/studentnew/Newsdisplay" frameborder="0" id='2'></iframe>	  
         </div>
         </div>	  
         
